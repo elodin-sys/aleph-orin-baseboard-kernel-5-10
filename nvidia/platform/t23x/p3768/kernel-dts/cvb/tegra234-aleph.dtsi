@@ -18,11 +18,11 @@
 
 #include "tegra234-p3509-a02-pwm-fan.dtsi"
 #include "tegra234-p3509-audio.dtsi"
-#include "tegra234-antmicro-job-fixed-regulators.dtsi"
-#include "tegra234-antmicro-job-i2c-buses.dtsi"
-#include "tegra234-antmicro-job-gpioex.dtsi"
-#include "tegra234-antmicro-job-pcie.dtsi"
-#include "tegra234-antmicro-job-usb.dtsi"
+#include "tegra234-aleph-fixed-regulators.dtsi"
+#include "tegra234-aleph-i2c-buses.dtsi"
+#include "tegra234-aleph-gpioex.dtsi"
+#include "tegra234-aleph-pcie.dtsi"
+#include "tegra234-aleph-usb.dtsi"
 
 
 / {

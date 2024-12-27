@@ -14,7 +14,7 @@
  */
 
 /dts-v1/;
-#include "tegra234-p3767-0000-antmicro-job.dts"
+#include "tegra234-p3767-0000-aleph.dts"
 
 / {
 	nvidia,dtsfilename = __FILE__;
