@@ -1,5 +1,5 @@
 /*
- * Top level DTS file for CVM:P3767-0000 and CVB:antmicro-job.
+ * Top level DTS file for CVM:P3767-0000 and CVB:aleph.
  *
  * Copyright (c) 2021-2022, NVIDIA CORPORATION.  All rights reserved.
  * Copyright (c) 2023 Antmicro <www.antmicro.com>
@@ -22,10 +22,10 @@
 #include <t234-common-cvm/tegra234-thermal-cooling.dtsi>
 #include <t234-common-cvm/tegra234-thermal-userspace-alert.dtsi>
 #include "cvm/tegra234-p3767-0000.dtsi"
-#include "cvb/tegra234-antmicro-job.dtsi"
+#include "cvb/tegra234-aleph.dtsi"
 
 /* 4xOV9281 cameras */
-#include "cvb/tegra234-antmicro-job-camera-ov9281.dtsi"
+#include "cvb/tegra234-aleph-camera-ov9281.dtsi"
 
 / {
 	nvidia,dtsfilename = __FILE__;
