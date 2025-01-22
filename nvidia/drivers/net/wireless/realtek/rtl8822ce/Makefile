@@ -14,10 +14,7 @@ EXTRA_CFLAGS += -Wno-unused-variable
 #EXTRA_CFLAGS += -Wno-unused-function
 #EXTRA_CFLAGS += -Wno-unused
 #EXTRA_CFLAGS += -Wno-uninitialized
-<<<<<<< HEAD
 EXTRA_CFLAGS += -Wno-missing-prototypes
-=======
->>>>>>> 9550af422425 (nvidia: net: wireless: disable -Waddress in rtl88xxxx drivers)
 EXTRA_CFLAGS += $(call cc-disable-warning, address)
 
 GCC_VER_49 := $(shell echo `$(CC) -dumpversion | cut -f1-2 -d.` \>= 4.9 | bc )

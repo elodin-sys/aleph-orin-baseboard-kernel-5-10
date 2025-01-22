@@ -45,8 +45,6 @@
 		interrupt-parent = <&intc>;
 		interrupts = <GIC_PPI 9 (GIC_CPU_MASK_SIMPLE(4) | IRQ_TYPE_LEVEL_HIGH)>;
 		ranges;
-		interrupts = <GIC_PPI 9
-			(GIC_CPU_MASK_SIMPLE(8) | IRQ_TYPE_LEVEL_HIGH)>;
 		interrupt-parent = <&intc>;
 		status = "disabled";
 
